@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Urbanist&display=swap');
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Urbanist";
+}
+
+:root {
+    --bs-dark-color :#1a1d20;
+    --bs-dark-primary :#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Lexend", sans-serif;
+    color: var(--bs-dark-color);
+
+}
+h1 {
+    font-size: 3.8rem;
+}
+p{
+    font-weight: 400;
+    margin: 0%;
+    text-rendering: optimizeLegibility;
+    font-synthesis: none;
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    line-height: 1.3rem;
+}
+.hero-video-section{
+    border-radius: 2rem;
+    width: 35rem;
+}
+.bg-main {
+    height: 100vh;
+    position: relative;
+}
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-color {
+    background-color: var(--bs-dark-color);
+}
+.para-width{
+    color: var(--bs-primary-color);
+}
+.nav-link {
+    color: var(--bs-main-color)!important;
+}
+.nav-link:hover{
+    color: var(--secondary-color)!important;
+
+}
+.custom-shape-divider-bottom-1696348349 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1696348349 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1696348349 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.common-title {
+    margin: 4.2rem;
+}
+.common-heading {
+    font-size: 3rem;
+    letter-spacing: 0.07rem!important;
+}
+.services-section {
+    padding: 6rem 0 3rem!important ; 
+}
+.more-info-section {
+    background-image: linear-gradient(rgba(22,22,22,0.7),rgba(22,22,22,0.7)),url('/assessts/images/pexels-pixabay-316093.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 0 ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.more-info-section .img-section {
+    position: relative;
+
+}
+.more-info-section .img-section img {
+    width: 70%;
+}
